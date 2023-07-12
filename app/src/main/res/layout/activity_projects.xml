@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SkillsActivity">
+
+    <TextView
+        android:id="@+id/tvProjectsHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Projects"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:background="@drawable/blue_button_background"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/tvProject1Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:padding="10dp"
+        android:text="Full Stack P2P Courier Service Platform"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/tvProject1Technologies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:padding="10dp"
+        android:text="Technologies: Java, Spring Boot, React JavaScript, MongoDB"
+        android:layout_marginTop="2dp"/>
+
+    <TextView
+        android:id="@+id/tvProject1Description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:padding="10dp"
+        android:text="Description: The Full Stack P2P Courier Service Platform is a comprehensive software project that connects senders and couriers for seamless package delivery. The platform allows users to create delivery requests, track packages in real-time, and provides secure payment options. With its robust backend and intuitive user interface, this platform simplifies the courier service process for both senders and couriers."
+        android:layout_marginTop="2dp"/>
+
+    <TextView
+        android:id="@+id/tvProject2Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:padding="10dp"
+        android:text="Full Stack Instant Messaging Application"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/tvProject2Technologies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:padding="10dp"
+        android:text="Technologies: Node.js, React JavaScript, MongoDB, Socket.io"
+        android:layout_marginTop="2dp"/>
+
+    <TextView
+        android:id="@+id/tvProject2Description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:padding="10dp"
+        android:text="Description: The Full Stack Instant Messaging Application is a powerful software project that enables real-time communication between users. The Socket.io library is used to facilitate instant messaging capabilities. Users can exchange text messages seamlessly. This application provides a smooth and responsive user experience, making communication quick and efficient."
+        android:layout_marginTop="2dp"/>
+
+    <TextView
+        android:id="@+id/tvProject3Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:padding="10dp"
+        android:text="Full Stack Movie Review Platform"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/tvProject3Technologies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:padding="10dp"
+        android:text="Java, Spring Boot, React JavaScript, MongoDB"
+        android:layout_marginTop="2dp"/>
+
+    <TextView
+        android:id="@+id/tvProject3Description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:padding="10dp"
+        android:text="Description:  The Full Stack Movie Review Platform is a comprehensive software project designed for movie enthusiasts watch movie trailers and share their reviews. Users can browse movies, read and submit reviews. This platform offers an engaging and user-friendly interface for movie enthusiasts to connect and share their opinions."
+        android:layout_marginTop="2dp"/>
+
+    <TextView
+        android:id="@+id/tvProject4Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:padding="10dp"
+        android:text="Backend E-trust Platform for Secure Transactions"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/tvProject4Technologies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:padding="10dp"
+        android:text="Technologies: Java, Spring Boot, MySQL"
+        android:layout_marginTop="2dp"/>
+
+    <TextView
+        android:id="@+id/tvProject4Description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:padding="10dp"
+        android:text="Description:  The Backend E-trust Platform for Secure Transactions is a software project. It provides a secure platform for online transactions, ensuring data integrity and implementing robust authentication and authorization mechanisms. This platform enables users to engage in e-commerce activities with confidence, establishing trust between buyers and sellers."
+        android:layout_marginTop="2dp"/>
+
+    <TextView
+        android:id="@+id/tvProject5Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:padding="10dp"
+        android:text="Backend Library Management System"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/tvProject5Technologies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:padding="10dp"
+        android:text="Technologies: Python, Django, MySQL"
+        android:layout_marginTop="2dp"/>
+
+    <TextView
+        android:id="@+id/tvProject5Description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:padding="10dp"
+        android:text="Description: The Backend Library Management System is a software project developed using Python and the Django framework. It offers efficient management of library resources, including books, borrowers, and transactions. Librarians can handle book checkouts, returns, and catalog management effectively using this system. This project simplifies library operations and enhances the overall management experience."
+        android:layout_marginTop="2dp"/>
+
+</LinearLayout>
+
+</ScrollView>

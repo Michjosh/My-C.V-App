@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SkillsActivity">
+
+    <TextView
+        android:id="@+id/tvSkillsHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skills"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:background="@drawable/blue_button_background"
+        android:textColor="@color/white"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/tvSkills"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="● Proficient in programming languages such as Java, Python, and JavaScript.\n\n● Good knowledge of software development methodologies and best practices.\n\n● Web development frameworks such as Django, Spring Framework, and React.js.\n\n● Familiarity with front-end technologies including HTML, CSS, and JavaScript.\n\n● Excellent problem-solving and analytical skills.\n\n● Good understanding of data structures and algorithms.\n\n● Ability to work collaboratively in a team environment.\n\n● Effective communication and interpersonal skills."
+        android:padding="10dp"
+        android:layout_gravity="center" />
+</LinearLayout>

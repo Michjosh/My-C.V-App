@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SkillsActivity">
+    <TextView
+        android:id="@+id/tvExperienceHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Experience"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:background="@drawable/blue_button_background"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/tvExperienceSubheader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Software Engineer Trainee\nSemicolon Africa\nYaba, Lagos Nigeria\n19th September 2022 - 19th July 2023"
+        android:textSize="16sp"
+        android:padding="10dp"
+        app:layout_constraintTop_toBottomOf="@id/tvExperienceHeader"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tvExperience"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="● Participated in a comprehensive training program focused on software development and engineering principles.\n\n● Collaborated with senior developers and engineers on various projects to gain hands-on experience and learn industry best practices.\n\n● Assisted in the design, development, and testing of software applications, contributing to the successful delivery of multiple projects.\n\n● Debugged and resolved software defects to improve the overall quality and functionality of the applications.\n\n● Actively participated in code reviews and provided constructive feedback to enhance code quality.\n\n● Demonstrated ability to learn new technologies quickly and apply them effectively in practical scenarios.\n\n● Worked closely with cross-functional teams to ensure alignment and successful project completion.\n\n● Developed a web-based inventory management system using Python and Django, which improved the efficiency of tracking and managing inventory for a client.\n\n● Created a data analysis tool using Java, allowing users to extract insights from large datasets and visualize the results.\n\n● Designed and implemented a responsive website using HTML, CSS, and JavaScript, showcasing a portfolio of personal projects."
+        android:padding="5dp"
+        app:layout_constraintTop_toBottomOf="@id/tvExperienceSubheader"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</LinearLayout>

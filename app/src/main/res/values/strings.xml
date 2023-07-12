@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">First Project</string>
+    <string name="softeware_engineer">Softeware Engineer</string>
+    <string name="education">Education</string>
+    <string name="skills">Skills</string>
+    <string name="michael">Michael Joshua</string>
+    <string name="work_experience">Experience</string>
+    <string name="achievements">Projects</string>
+    <string name="todo">TODO</string>
+    <string name="this_is_the_skills_activity">This is the skills activity</string>
+</resources>

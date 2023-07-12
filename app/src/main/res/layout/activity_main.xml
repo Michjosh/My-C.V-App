@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageViewProfile"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        android:src="@drawable/michael"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/michael"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvDesignation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/softeware_engineer"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:layout_margin="2dp"
+        android:textStyle="bold"
+        android:textSize="22sp"/>
+    <TextView
+        android:id="@+id/tvProfileHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Professional Profile"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_marginTop="1dp" />
+
+    <TextView
+        android:id="@+id/tvProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Highly motivated software engineer with 8 months of experience in training seeking an opportunity to contribute my skills and knowledge in a dynamic and innovative tech-driven company."
+        android:padding="10dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvContactsHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:padding="2dp"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:id="@+id/tvContacts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="● Home Address: 76 Iwaya Rd, Onike Lagos State, Nigeria.\n● Phone Number: 07069310006\n● Email: michaelikejoshua@gmil.com\n● Github: https://github.com/Michjosh"
+        android:padding="10dp"
+        android:autoLink="web|email"
+        android:drawablePadding="8dp"
+        app:layout_constraintTop_toBottomOf="@id/tvContactsHeader"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSkills"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="20dp"
+            android:text="@string/skills"
+            android:background="@drawable/blue_button_background"
+            android:textColor="@color/white"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <Button
+            android:id="@+id/btnEducation"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/blue_button_background"
+            android:textColor="@color/white"
+            android:layout_margin="20dp"
+            android:text="@string/education" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnExperience"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="20dp"
+            android:text="@string/work_experience"
+            android:background="@drawable/blue_button_background"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnProjects"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="20dp"
+            android:text="@string/achievements"
+            android:background="@drawable/blue_button_background"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>
