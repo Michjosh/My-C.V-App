@@ -8,18 +8,18 @@ import android.text.Spanned
 import android.text.util.Linkify
 import android.widget.Button
 import android.widget.TextView
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import java.util.regex.Pattern
 
 import android.text.style.ClickableSpan
 import android.view.View
 
-
-
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        showToast("onCreate")
 
         val buttonSkills = findViewById<Button>(R.id.btnSkills)
         val buttonExperience = findViewById<Button>(R.id.btnExperience)
@@ -70,7 +70,40 @@ class MainActivity : AppCompatActivity() {
         buttonProjects.setOnClickListener {
             val intent = Intent(this, ProjectsActivity::class.java)
             startActivity(intent)
-
         }
+    }
+
+    override fun onStart() {
+        super.onStart()
+        showToast("onStart")
+    }
+
+    override fun onResume() {
+        super.onResume()
+        showToast("onResume")
+    }
+
+    override fun onPause() {
+        super.onPause()
+        showToast("onPause")
+    }
+
+    override fun onStop() {
+        super.onStop()
+        showToast("onStop")
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        showToast("onDestroy")
+    }
+
+    override fun onRestart() {
+        super.onRestart()
+        showToast("onRestart")
+    }
+
+    private fun showToast(message: String) {
+        Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
     }
 }
